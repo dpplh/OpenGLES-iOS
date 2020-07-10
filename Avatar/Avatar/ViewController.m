@@ -80,7 +80,7 @@ const GLbyte indexs[] = {
     UIImage *prospectImage = [UIImage imageWithContentsOfFile:prospectFilePath];
     _prospectTexture = [prospectImage texture];
 
-//    [self setupDisplayLink];
+    [self setupDisplayLink];
 }
 
 - (void)setupElements {
